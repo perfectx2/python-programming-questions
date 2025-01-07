@@ -14,15 +14,16 @@ Implement a basic calculator with the following operations:
 Your task is to implement these four functions. The driver code will call these functions with different inputs.
 
 **Example**
-```py3
+```
 add(3, 5) # 8
 subtract(10, 3) # 7
 multiply(4, 6) # 24
 divide(9, 3) # 3.0
 divide(9, 0) # "Cannot divide by zero"
+```
 
-
-#Solution
+# Solution
+```py3 test.py -r 'python test.py'
 <prefix>
 # some prefix   
 </prefix>
@@ -84,49 +85,66 @@ test = <los>...</los><sol>'test'</sol> #tests
 <suffix>
 # some suffix
 </suffix>
+```
 
-#Public Test Cases
+# Public Test Cases
 
-##Input 1
+## Input 1
+```
 is_equal(
     add(3, 5),
     8
 )
+```
 
-##Output 1
+## Output 1
+```
 8
+```
 
-##Input 2
+## Input 2
+```
 is_equal(
     subtract(10, 3),
     7
 )
+```
 
-##Output 2
+## Output 2
+```
 7
+```
 
-##Input 3
+## Input 3
+```
 is_equal(
     multiply(4, 6),
     24
 )
+```
 
-##Output 3
+## Output 3
+```
 24
+```
 
-##Input 4
+## Input 4
+```
 is_equal(
     divide(9, 3),
     3.0
 )
+```
 
-##Output 4
+## Output 4
+```
 3.0
+```
 
+# Private Test Cases
 
-#Private Test Cases
-
-##Input
+## Input
+```
 is_equal(
     divide(9, 0),
     "Cannot divide by zero"
@@ -146,10 +164,12 @@ is_equal(
     multiply(0, 100),
     0
 )
+```
 
-
-##Output
+## Output
+```
 "Cannot divide by zero"
 0
 50
 0
+```
