@@ -38,6 +38,9 @@ def is_perfect_cube(n: int) -> bool:
 <suffix>
 # some suffix
 </suffix>
+<suffix_invisible>
+{% include './function_type_and_modify_check_suffix.py.jinja' %}
+</suffix_invisible>
 ```
 
 
