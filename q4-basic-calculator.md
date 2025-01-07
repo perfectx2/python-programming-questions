@@ -85,6 +85,9 @@ test = <los>...</los><sol>'test'</sol> #tests
 <suffix>
 # some suffix
 </suffix>
+<suffix_invisible>
+{% include './function_type_and_modify_check_suffix.py.jinja' %}
+</suffix_invisible>
 ```
 
 # Public Test Cases
