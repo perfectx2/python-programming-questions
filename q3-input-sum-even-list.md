@@ -35,7 +35,6 @@ def sum_of_evens(numbers: list) -> int:
     '''
     <los>...</los>
     <sol>return sum(num for num in numbers if num % 2 == 0)</sol>
-    test = <los>...</los><sol>'test'</sol> #tests
 </template>
 <suffix>
 # Driver code
