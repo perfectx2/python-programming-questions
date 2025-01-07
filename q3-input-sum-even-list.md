@@ -9,20 +9,20 @@ You are given a list of integers. Your task is to read the list from standard in
 The input consists of a single line containing space-separated integers. Your task is to output the sum of all even integers in the list.
 
 **Example**
-```py3
-Input:
+
+**Input**:
+```
 1 2 3 4 5 6 7 8 9 10
-
-Output:
+```
+**Output**:
+```
 30
+```
+**Explanation**:
+The sum of even number in the list is evaluated like this 2+4+6+8+10=`30`
 
-Input:
-11 13 15
-
-Output:
-0
-
-#Solution
+# Solution
+```py test.py -r 'python test.py'
 <prefix>
 # some prefix   
 </prefix>
@@ -41,35 +41,49 @@ def sum_of_evens(numbers: list) -> int:
     test = <los>...</los><sol>'test'</sol> #tests
 </template>
 <suffix>
-# some suffix
+# Driver code
+l = list(map(int, input().split()))
+print(sum_of_evens(l))
 </suffix>
+```
 
+# Public Test Cases
 
-#Public Test Cases
-
-##Input 1
+## Input 1
+```
 1 2 3 4 5 6 7 8 9 10
+```
 
-##Output 1
+## Output 1
+```
 30
+```
 
-##Input 2
+## Input 2
+```
 11 13 15
+```
 
-##Output 2
+## Output 2
+```
 0
+```
 
-##Input 3
+## Input 3
+```
 2 4 6 8 10
+```
 
-##Output 3
+## Output 3
+```
 30
+```
 
 
+# Private Test Cases
 
-#Private Test Cases
-
-##Input
+## Input
+```
 3 5 7 9 11
 
 -2 4 6 8 -10
@@ -77,9 +91,11 @@ def sum_of_evens(numbers: list) -> int:
 0 1 2 3 4 5 6
 
 10 11 12 13 14
-
-##Output
+```
+## Output
+```
 0
 6
 12
 36
+```
