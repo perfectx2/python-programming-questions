@@ -23,9 +23,6 @@ The sum of even number in the list is evaluated like this 2+4+6+8+10=`30`
 
 # Solution
 ```py test.py -r 'python test.py'
-<prefix>
-# some prefix   
-</prefix>
 <template>
 def sum_of_evens(numbers: list) -> int:
     '''
